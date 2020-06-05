@@ -1,0 +1,61 @@
+*{
+  cursor: url('girl.png'), auto;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: #34495e;
+  overflow: hidden;
+}
+
+.welcome {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #fff;
+  text-align: center;
+  
+}
+
+.eyes {
+  position: static;
+  padding-top: 10%;
+  /* top: 50%; */
+  /* transform: translateY(-50%); */
+  width: 100%;
+  text-align: center;
+  visibility: hidden;
+}
+
+.eye {
+  width: 240px;
+  height: 120px;
+  background: #fff;
+  display: inline-block;
+  margin: 40px;
+  border-radius: 50%;
+  position: relative;
+  overflow: hidden;
+  transition: 0.1s;
+}
+
+
+.ball {
+  width: 40px;
+  height: 40px;
+  background: #000;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  border: 15px solid #333;
+}
+
+.mouth{
+    visibility: hidden;
+}
+
+img{
+    width: 260px;
+    /* position: absolute; */
+}
