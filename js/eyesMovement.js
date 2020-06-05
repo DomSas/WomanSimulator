@@ -9,7 +9,7 @@ setTimeout(function () {
     let eyes = document.querySelector(".eyes");
     let welcome = document.querySelector(".welcome");
     eyes.style.visibility = "visible";
-    welcome.style.visibility = "hidden";
+    welcome.parentNode.removeChild(welcome);
 
     document.onmousemove = function () {
         let mouth = document.querySelector(".mouth");
@@ -44,7 +44,7 @@ setTimeout(function () {
     
     }
     
- }, 3000);
+ }, 4000);
 
 
 
